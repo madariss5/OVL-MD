@@ -1,9 +1,9 @@
-const dotenv = require('dotenv');
+  y const dotenv = require('dotenv');
 dotenv.config();
 module.exports = {
   PREFIXE: process.env.PREFIXE || "",
-  NOM_OWNER: process.env.NOM_OWNER || "Ainz",
-  NUMERO_OWNER: process.env.NUMERO_OWNER || "",
+  NOM_OWNER: process.env.NOM_OWNER || "Martin",
+  NUMERO_OWNER: process.env.NUMERO_OWNER || "4915563151347",
   MODE: process.env.MODE || "public",
   MENU: process.env.MENU || "https://i.ibb.co/ynx9QcZ/image.jpg",
   SESSION_ID: process.env.SESSION_ID || "ovl",
